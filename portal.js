@@ -156,8 +156,7 @@ function initScrollReveal() {
 
 
 
-// Global state for brochure content
-let brochureHTML = '';
+// Global state
 let loanCompleted = false;
 
 // --- AUTH HELPER ---
@@ -171,42 +170,7 @@ async function authFetch(url, options = {}) {
     return fetch(url, { ...options, headers });
 }
 
-window.togglePortal = async function(showPortal) {
-    const appContent = document.getElementById('app-content');
-    
-    if (showPortal) {
-        if (!brochureHTML) // brochureHTML removed (separate site)
-        // Check if already logged in
-        const token = localStorage.getItem('jwt_token');
-        if (token) {
-            // Already authenticated
-            await window.checkUserStatus();
-            if (window.userStatus && window.userStatus.role === 'admin') {
-                appContent.innerHTML = renderAdminDashboard();
-                window.loadAdminData();
-            } else {
-                appContent.innerHTML = renderPortal();
-                window.loadDocuments();
-            }
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-            initScrollReveal();
-        } else {
-            appContent.innerHTML = renderLogin();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-            initScrollReveal();
-        }
-    } else {
-        localStorage.removeItem('jwt_token');
-        localStorage.removeItem('user_data');
-        window.userStatus = null;
-        if (brochureHTML) {
-            window.location.href = "/";
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-            initScrollReveal();
-            initTestimonialSlider();
-        }
-    }
-}
+
 
 // --- REAL AUTH ---
 window.submitLogin = async function() {
