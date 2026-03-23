@@ -595,7 +595,7 @@ function renderWizard(step) {
         <section class="min-h-screen bg-primary pt-32 pb-24 relative overflow-hidden">
              <!-- Background Image with Overlay -->
             <div class="absolute inset-0 z-0 opacity-10">
-                <img src="assets/modern.jpg" alt="Wizard Background" class="w-full h-full object-cover" loading="lazy">
+                <img src="assets/modern.webp" alt="Wizard Background" class="w-full h-full object-cover" loading="lazy">
             </div>
             <div class="absolute inset-0 bg-primary/90 z-0"></div>
 
@@ -858,7 +858,7 @@ function renderLogin() {
         <section class="min-h-screen bg-primary flex items-center justify-center pt-24 pb-12 relative overflow-hidden">
              <!-- Background Image with Overlay -->
             <div class="absolute inset-0 z-0 opacity-20">
-                <img src="assets/modern.jpg" alt="Login Background" class="w-full h-full object-cover" loading="lazy">
+                <img src="assets/modern.webp" alt="Login Background" class="w-full h-full object-cover" loading="lazy">
             </div>
             <div class="absolute inset-0 bg-primary/80 z-0"></div>
 
@@ -902,7 +902,7 @@ function renderRegister() {
     return `
         <section class="min-h-screen bg-primary flex items-center justify-center pt-24 pb-12 relative overflow-hidden">
             <div class="absolute inset-0 z-0 opacity-20">
-                <img src="assets/modern.jpg" alt="Register Background" class="w-full h-full object-cover" loading="lazy">
+                <img src="assets/modern.webp" alt="Register Background" class="w-full h-full object-cover" loading="lazy">
             </div>
             <div class="absolute inset-0 bg-primary/80 z-0"></div>
 
@@ -954,7 +954,7 @@ function renderMFAChallenge(type) {
     return `
         <section class="min-h-screen bg-primary flex items-center justify-center relative overflow-hidden">
             <div class="absolute inset-0 z-0 opacity-10">
-                <img src="assets/modern.jpg" alt="Background" class="w-full h-full object-cover" loading="lazy">
+                <img src="assets/modern.webp" alt="Background" class="w-full h-full object-cover" loading="lazy">
             </div>
             <div class="max-w-md w-full p-8 relative z-10">
                 <div class="glass-card p-10 rounded-[3.5rem] border-white/10 shadow-2xl text-center">
@@ -984,7 +984,7 @@ function renderRegistrationVerification(email) {
     return `
         <section class="min-h-screen bg-primary flex items-center justify-center relative overflow-hidden">
             <div class="absolute inset-0 z-0 opacity-10">
-                <img src="assets/modern.jpg" alt="Background" class="w-full h-full object-cover" loading="lazy">
+                <img src="assets/modern.webp" alt="Background" class="w-full h-full object-cover" loading="lazy">
             </div>
             <div class="max-w-2xl w-full p-8 relative z-10">
                 <div class="glass-card p-12 rounded-[4rem] border-white/10 shadow-2xl text-center">
@@ -1111,7 +1111,7 @@ function renderSecuritySettings() {
     return `
         <section class="min-h-screen bg-primary pt-32 pb-24 relative overflow-hidden">
             <div class="absolute inset-0 z-0 opacity-10">
-                <img src="assets/modern.jpg" alt="Background" class="w-full h-full object-cover" loading="lazy">
+                <img src="assets/modern.webp" alt="Background" class="w-full h-full object-cover" loading="lazy">
             </div>
             <div class="max-w-4xl mx-auto px-4 relative z-10">
                 <div class="flex items-center justify-between mb-12">

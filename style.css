@@ -117,8 +117,8 @@ ul {
 
 .glass-card {
     background: rgba(255, 255, 255, 0.03);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
+    /* backdrop-filter removed */
+    -webkit-/* backdrop-filter removed */
 }
 
 .glass-section {
@@ -166,7 +166,7 @@ ul {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-image: url('assets/calculators_bg.png');
+    background-image: url('assets/calculators_bg.webp');
     background-size: 450px;
     background-position: top left;
     background-repeat: repeat;
@@ -241,14 +241,14 @@ ul {
 }
 .glass-card-light {
   background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  /* backdrop-filter removed */
+  -webkit-/* backdrop-filter removed */
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
 .glass-card-dark {
   background: #0F1E2E;
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  /* backdrop-filter removed */
+  -webkit-/* backdrop-filter removed */
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -259,8 +259,8 @@ ul {
 
 .glass-hover:hover {
   background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  /* backdrop-filter removed */
+  -webkit-/* backdrop-filter removed */
   border: 1px solid rgba(255, 255, 255, 0.2);
   transform: translateY(-2px);
   box-shadow: 0 20px 40px -10px rgba(0,0,0,0.2);
@@ -285,8 +285,8 @@ ul {
 
 .glass-nav-link {
   background: transparent;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  /* backdrop-filter removed */
+  -webkit-/* backdrop-filter removed */
   border: 1px solid transparent;
   transition: all 0.3s ease;
   font-weight: 600; /* Semi-bold for navigation */
@@ -393,7 +393,7 @@ ul {
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
+    /* backdrop-filter removed */
     border-bottom: 1px solid var(--color-border);
     z-index: 1000;
     transition: all var(--transition-normal);
@@ -957,7 +957,7 @@ ul {
     left: 0;
     width: 100%;
     background: rgba(255, 255, 255, 0.98);
-    backdrop-filter: blur(12px);
+    /* backdrop-filter removed */
     border: 1.5px solid rgba(15, 30, 46, 0.1);
     border-radius: 1.25rem;
     box-shadow: 0 15px 35px rgba(15, 30, 46, 0.15);
@@ -1473,8 +1473,8 @@ ul {
         left: 0;
         width: 100%;
         background: rgba(255, 255, 255, 0.9);
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
+        /* backdrop-filter removed */
+        -webkit-/* backdrop-filter removed */
         border-top: 1px solid rgba(15, 30, 46, 0.1);
         padding: 1rem 1.5rem;
         display: flex;
@@ -1604,7 +1604,7 @@ ul {
     font-style: normal;
     text-transform: none;
     position: absolute; bottom: 125%; left: 50%; transform: translateX(-50%) translateY(10px);
-    padding: 0.75rem 1rem; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    padding: 0.75rem 1rem; background: rgba(255, 255, 255, 0.95); /* backdrop-filter removed */ -webkit-/* backdrop-filter removed */
     border: 1px solid rgba(15, 30, 46, 0.1); color: var(--color-navy); font-size: 0.8rem; font-weight: 500; line-height: 1.5;
     border-radius: 1rem; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15); white-space: normal; width: 220px; z-index: 1000;
     opacity: 0; visibility: hidden; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); pointer-events: none;
@@ -1620,7 +1620,7 @@ ul {
 }
 #sticky-mobile-summary {
     position: fixed; bottom: 0; left: 0; right: 0;
-    background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.9); /* backdrop-filter removed */ -webkit-/* backdrop-filter removed */
     border-top: 1px solid rgba(15, 30, 46, 0.05); padding: 1rem; display: none; z-index: 1000;
     box-shadow: 0 -10px 30px rgba(0,0,0,0.05);
 }

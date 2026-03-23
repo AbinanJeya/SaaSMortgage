@@ -18,7 +18,7 @@ const agentConfig = {
         name: "Juthis",
         title: "Expert Mortgage Services",
         licenseNumber: "NMLS #123456",
-        photoUrl: "headshot.jpeg",
+        photoUrl: "headshot.webp",
         testimonials: [
             {
                 quote: "AskJuthis made buying our first home surprisingly easy. They took the time to answer all our frantic questions and got us a rate we didn't think was possible!",
